@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    background: linear-gradient(271.88deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+    text-shadow: 0 5px 12px rgba(6, 5, 19, 0.25);
+    border-radius: 5px;
+    text-align: center;
+}
+.borderline{
+  border: 2px solid #1288E8;
+}
+.borderline2{
+  border: 1px solid #1288E8;
+}
+.overview{
+  background-image: url('../public/images/overview.png');
+}
+.wallet{
+  background-image: url('../public/images/wallet\ logo.png');
+}
+.trans{
+  background-image: url('../public/images/trans\ logo.png');
+}
+.exchange{
+  background-image: url('../public/images/exchange\ logo.png');
+}
+.market{
+  background-image: url('../public/images/market\ logo.png');
+}
+.active {
+    background: #32395E;
+    border-radius: 5px;
+    border-bottom: 2px solid #1288E8;
+}
+.exit{
+  background-image: url('../public/images/log\ out.png');
+}
+.borderhead{
+  border-bottom: 1px solid #2D317A;
+}
+.mail{
+  background-image: url('../public/images/pochta.png');
+}
+.bell{
+  background-image: url('../public/images/bell.png');
+}
