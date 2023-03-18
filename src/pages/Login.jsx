@@ -38,7 +38,14 @@ const Login = () => {
                <p className="text-[#5FB2FF] text-center underline underline-offset-1 font-roboto cursor-pointer transition-[500ms] hover:invert-[5%]">Forgot your password?</p>
             </div>
          </div>
+         <div className="flex flex-col gap-[20px]">
+         <p className="title2 font-raleway">valuet</p>
+         <div className="w-[175px] h-[2px] borderline mx-auto"></div>
+         <p className="font-roboto font-[300] text-[#fff] textShadow text-[24px] text-center">Your currency dashboard</p>
+         </div>
       </div>
+      <div className="triangleOrange top-[141px] left-[160px]"></div>
+      <div className="reactangleblue top-[90px] left-[666px]"></div>
    </div> 
    );
 }
