@@ -50,10 +50,19 @@
 .market{
   background-image: url('../public/images/market\ logo.png');
 }
+.grey{
+  fill: #616A8B;
+}
 .active {
     background: #32395E;
     border-radius: 5px;
     border-bottom: 2px solid #1288E8;
+}
+.active p {
+  color: white;
+}
+.active svg {
+  fill: #ffffff !important;
 }
 .exit{
   background-image: url('../public/images/log\ out.png');
