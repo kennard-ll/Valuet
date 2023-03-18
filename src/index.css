@@ -76,3 +76,30 @@
 .bell{
   background-image: url('../public/images/bell.png');
 }
+.bgback{
+  background-image: url('../public/images/wave\ back.png');
+
+}
+.bgtop{
+  background-image: url('../public/images/wave\ top.png');
+
+}
+.triangleBlue {
+    background-image: url("../public/images/triangle\ blue.png");
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  background-size: cover;
+}
+.chel{
+  background-image: url('../public/images/chel.png');
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.lock{
+  background-image: url('../public/images/lock.png');
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
